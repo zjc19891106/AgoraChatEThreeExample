@@ -23,7 +23,7 @@ An encrypted session means that only users on both sides of the chat can see the
 
 3. Get the current user's Card object.
 
-4. Use the E3 object to create a VirgilE3Kit.Group object based on the session creator's Card object and the ids of both parties to the session.
+4. Use the E3 object to create a VirgilE3Kit.Group object based on the session creator's Card object and the sessionId(This group id is a string sorted by the id of the message sender and the message receiver plus the AgoraChat string).
 
 5. Use the Group object to encrypt and decrypt the corresponding message.
 
