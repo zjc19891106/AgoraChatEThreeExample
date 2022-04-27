@@ -1,0 +1,16 @@
+${PODS_ROOT}/Target Support Files/Pods-AgoraChatEThreeExample/Pods-AgoraChatEThreeExample-frameworks.sh
+${PODS_ROOT}/AgoraChat/AgoraChat.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
+${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCCommon.framework
+${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCFoundation.framework
+${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCPythia.framework
+${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCRatchet.framework
+${BUILT_PRODUCTS_DIR}/VirgilCrypto/VirgilCrypto.framework
+${BUILT_PRODUCTS_DIR}/VirgilCryptoFoundation/VirgilCryptoFoundation.framework
+${BUILT_PRODUCTS_DIR}/VirgilCryptoPythia/VirgilCryptoPythia.framework
+${BUILT_PRODUCTS_DIR}/VirgilCryptoRatchet/VirgilCryptoRatchet.framework
+${BUILT_PRODUCTS_DIR}/VirgilE3Kit/VirgilE3Kit.framework
+${BUILT_PRODUCTS_DIR}/VirgilSDK/VirgilSDK.framework
+${BUILT_PRODUCTS_DIR}/VirgilSDKPythia/VirgilSDKPythia.framework
+${BUILT_PRODUCTS_DIR}/VirgilSDKRatchet/VirgilSDKRatchet.framework
+${BUILT_PRODUCTS_DIR}/ZSwiftBaseLib/ZSwiftBaseLib.framework

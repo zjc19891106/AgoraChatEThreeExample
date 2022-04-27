@@ -1,0 +1,6 @@
+framework module Pods_AgoraChatEThreeExample {
+  umbrella header "Pods-AgoraChatEThreeExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

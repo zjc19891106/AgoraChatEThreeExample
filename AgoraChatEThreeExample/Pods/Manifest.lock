@@ -1,0 +1,81 @@
+PODS:
+  - AgoraChat (3.8.8)
+  - ProgressHUD (13.6)
+  - VirgilCrypto (5.5.0):
+    - VirgilCryptoFoundation (= 0.15.2)
+  - VirgilCryptoFoundation (0.15.2):
+    - VSCCrypto/Common (= 0.15.2)
+    - VSCCrypto/Foundation (= 0.15.2)
+  - VirgilCryptoPythia (0.15.2):
+    - VirgilCryptoFoundation (= 0.15.2)
+    - VSCCrypto/Common (= 0.15.2)
+    - VSCCrypto/Foundation (= 0.15.2)
+    - VSCCrypto/Pythia (= 0.15.2)
+  - VirgilCryptoRatchet (0.15.2):
+    - VirgilCryptoFoundation (= 0.15.2)
+    - VSCCrypto/Common (= 0.15.2)
+    - VSCCrypto/Foundation (= 0.15.2)
+    - VSCCrypto/Ratchet (= 0.15.2)
+  - VirgilE3Kit (2.2.0):
+    - VirgilSDKPythia (~> 0.9.1)
+    - VirgilSDKRatchet (~> 0.7.0)
+  - VirgilSDK (7.2.1):
+    - VirgilCrypto (~> 5.5)
+  - VirgilSDKPythia (0.9.1):
+    - VirgilCryptoPythia (~> 0.15.2)
+    - VirgilSDK (~> 7.2.1)
+  - VirgilSDKRatchet (0.7.0):
+    - VirgilCryptoRatchet (~> 0.15.2)
+    - VirgilSDK (~> 7.2)
+  - VSCCrypto/Common (0.15.2)
+  - VSCCrypto/Foundation (0.15.2)
+  - VSCCrypto/Pythia (0.15.2)
+  - VSCCrypto/Ratchet (0.15.2)
+  - ZSwiftBaseLib (0.1.1)
+
+DEPENDENCIES:
+  - AgoraChat
+  - ProgressHUD
+  - VirgilE3Kit (= 2.2.0)
+  - ZSwiftBaseLib (from `https://github.com/zjc19891106/ZSwiftBaseLib`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraChat
+    - ProgressHUD
+    - VirgilCrypto
+    - VirgilCryptoFoundation
+    - VirgilCryptoPythia
+    - VirgilCryptoRatchet
+    - VirgilE3Kit
+    - VirgilSDK
+    - VirgilSDKPythia
+    - VirgilSDKRatchet
+    - VSCCrypto
+
+EXTERNAL SOURCES:
+  ZSwiftBaseLib:
+    :git: https://github.com/zjc19891106/ZSwiftBaseLib
+
+CHECKOUT OPTIONS:
+  ZSwiftBaseLib:
+    :commit: b2ed93fbed8153f322426d990c09cc5fc04e6eb0
+    :git: https://github.com/zjc19891106/ZSwiftBaseLib
+
+SPEC CHECKSUMS:
+  AgoraChat: b21cdcdce8ab0a6b32c12b70e1783557e24fa07f
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  VirgilCrypto: 48116c3abee03662dbae40d0957df5160c2a7128
+  VirgilCryptoFoundation: a804f11b826cefed157d7ef3d99f897e811cd971
+  VirgilCryptoPythia: 794e30acc757038e7fa9dfec46dcf73ef09363ff
+  VirgilCryptoRatchet: 09331bfbb7f93002a18f82cb6aa3b5fa6b801d9b
+  VirgilE3Kit: 0a01bbb79317f4a005232d7bf042b23753751798
+  VirgilSDK: 6ac72d992d329bf4a30020850a2df6880d06592d
+  VirgilSDKPythia: 7c431d8bf85805c9b0f1fb8cb56058c1f6df59ed
+  VirgilSDKRatchet: d2f820c431cb3fa237351f558f7c0159c1bb0dea
+  VSCCrypto: 6cb5595d080b0a343819f44524f41df8587dab6c
+  ZSwiftBaseLib: 1a2e919da63c1accba9da37c1bd1a67aa057b044
+
+PODFILE CHECKSUM: ddf845422ac31d85b7815bdf3ebaa900012f3fc9
+
+COCOAPODS: 1.11.2

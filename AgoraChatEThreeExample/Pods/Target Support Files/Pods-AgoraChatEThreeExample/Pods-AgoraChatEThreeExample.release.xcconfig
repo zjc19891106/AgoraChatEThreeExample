@@ -1,0 +1,16 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCrypto" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCryptoFoundation" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCryptoPythia" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCryptoRatchet" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilE3Kit" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilSDK" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilSDKPythia" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilSDKRatchet" "${PODS_CONFIGURATION_BUILD_DIR}/ZSwiftBaseLib" "${PODS_ROOT}/AgoraChat" "${PODS_ROOT}/VSCCrypto/Carthage/iOS"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ProgressHUD/ProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCrypto/VirgilCrypto.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCryptoFoundation/VirgilCryptoFoundation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCryptoPythia/VirgilCryptoPythia.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilCryptoRatchet/VirgilCryptoRatchet.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilE3Kit/VirgilE3Kit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilSDK/VirgilSDK.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilSDKPythia/VirgilSDKPythia.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/VirgilSDKRatchet/VirgilSDKRatchet.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZSwiftBaseLib/ZSwiftBaseLib.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AgoraChat" -framework "ProgressHUD" -framework "VSCCommon" -framework "VSCFoundation" -framework "VSCPythia" -framework "VSCRatchet" -framework "VirgilCrypto" -framework "VirgilCryptoFoundation" -framework "VirgilCryptoPythia" -framework "VirgilCryptoRatchet" -framework "VirgilE3Kit" -framework "VirgilSDK" -framework "VirgilSDKPythia" -framework "VirgilSDKRatchet" -framework "ZSwiftBaseLib"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
