@@ -35,10 +35,6 @@ After downloading the code, enter the AgoraChatEThreeExample folder in the termi
 
 `pod install`
 
-## Contact information
-
-984065974@qq.com or luomobancheng@gmail.com
-
 ## Quote
 
 > [Virgil Security document](https://developer.virgilsecurity.com/docs/e3kit/fundamentals/cryptography/)
