@@ -13,6 +13,10 @@ The AgoraChatRequest class is used to initiate network requests, and the E3Encry
 
 An encrypted session means that only users on both sides of the chat can see the specific content of the current message after receiving the message (the server does not know the content of the message). It protects the privacy of user chat content very well.
 
+##Process
+
+![Flow chart](./AgoraChatEThreeProcess.png)
+
 ## How to implement encrypted sessions
 
 ### We use the group encryption function of VirgilE3Kit to ensure that users can see the historical messages in the local database.
