@@ -9,7 +9,7 @@ import UIKit
 
 final class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    var data = ["Register than login","LogOut","E3EncryptChats"]
+    var data = ["Register than login","LogOut","E3EncryptChats","ConsoleLog"]
     
     lazy var functionList: UITableView = {
         UITableView(frame: CGRect(x: 0, y: ZNavgationHeight, width: ScreenWidth, height: ScreenHeight-ZNavgationHeight), style: .plain).delegate(self).dataSource(self).tableFooterView(UIView()).rowHeight(50)
@@ -69,6 +69,8 @@ extension ViewController {
             self.logoutAction()
         case "E3EncryptChats":
             VC = AgoraChatConversationsViewController.init()
+        case "ConsoleLog":
+            VC = ConsoleLogViewController.init()
         default:
             VC = nil
         }
@@ -79,6 +81,9 @@ extension ViewController {
     }
     
     private func logoutAction() {
+        if let user = AgoraChatClient.shared().currentUsername,!user.isEmpty {
+            return
+        }
         AgoraChatClient.shared().logout(true)
         self.functionList.tableHeaderView = nil
         do {

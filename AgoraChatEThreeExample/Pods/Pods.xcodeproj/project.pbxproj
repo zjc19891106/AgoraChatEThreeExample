@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = AgoraChat;
+			productName = AgoraChat;
 		};
 		8BDFA2C0DB14198AE4E03AC7689629D4 /* VSCCrypto */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = VSCCrypto;
+			productName = VSCCrypto;
 		};
 /* End PBXAggregateTarget section */
 
@@ -831,7 +833,7 @@
 		7E5D3ABE4FE34F8980D2DA8029226F8E /* ProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		7E6C0DB5D86A49D883160466157E04E3 /* KeyRecipientInfoList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyRecipientInfoList.swift; path = VirgilCryptoFoundation/KeyRecipientInfoList.swift; sourceTree = "<group>"; };
 		7EE98C38A71C8CDBBFCB7D2679CEA100 /* VirgilSDKPythia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VirgilSDKPythia-dummy.m"; sourceTree = "<group>"; };
-		7EF5F6F596DC0CCBBFD850B336E3C453 /* Pods-AgoraChatEThreeExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AgoraChatEThreeExample"; path = Pods_AgoraChatEThreeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF5F6F596DC0CCBBFD850B336E3C453 /* Pods_AgoraChatEThreeExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraChatEThreeExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F57D7AA002592E99C42BCB2261E12A3 /* VirgilCryptoFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VirgilCryptoFoundation-prefix.pch"; sourceTree = "<group>"; };
 		800C98F07E058901370A0AB617FB4AC6 /* VirgilCryptoFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VirgilCryptoFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		806C54B31969DE494C8D9115D693AF9B /* VirgilCryptoPythia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VirgilCryptoPythia-prefix.pch"; sourceTree = "<group>"; };
@@ -889,7 +891,7 @@
 		9C6DF29C02A0F2808171A0465AE1D513 /* CardVerifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardVerifier.swift; path = Source/Cards/Verification/CardVerifier.swift; sourceTree = "<group>"; };
 		9D2FAB88BC5D3CA349BC13839C067763 /* CloudTempKeysStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudTempKeysStorage.swift; path = Source/Storages/Cloud/CloudTempKeysStorage.swift; sourceTree = "<group>"; };
 		9D74D08E9134C6C7705F98219CEFFA4F /* GroupMsgType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupMsgType.swift; path = VirgilCryptoFoundation/GroupMsgType.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F3B1317CAD170CEBBBD818139C1D46B /* EThreeParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EThreeParams.swift; path = Source/Models/EThreeParams.swift; sourceTree = "<group>"; };
 		A008DA46FD63638EF305C2BC2A1EEB8D /* CContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CContext.swift; path = VirgilCryptoFoundation/CContext.swift; sourceTree = "<group>"; };
 		A0AE011740DA652AF21E58BC071BB0AA /* MessageInfoSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageInfoSerializer.swift; path = VirgilCryptoFoundation/MessageInfoSerializer.swift; sourceTree = "<group>"; };
@@ -1165,7 +1167,6 @@
 				AB0CE439995CB6E1FC4E958A0875E8B1 /* ProgressHUD.swift */,
 				2406D8A1F4989DE22EF3A1A0D177EA24 /* Support Files */,
 			);
-			name = ProgressHUD;
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1198,7 +1199,6 @@
 				E7E70DAC47F6E98E0D911F24D29D72E0 /* VirgilCryptoRatchet.h */,
 				5CBFD60AABF51B81908E2C67942BD5B7 /* Support Files */,
 			);
-			name = VirgilCryptoRatchet;
 			path = VirgilCryptoRatchet;
 			sourceTree = "<group>";
 		};
@@ -1321,7 +1321,7 @@
 		618BBCFC98F2B84D8C15AE35E6C7D1B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EF5F6F596DC0CCBBFD850B336E3C453 /* Pods-AgoraChatEThreeExample */,
+				7EF5F6F596DC0CCBBFD850B336E3C453 /* Pods_AgoraChatEThreeExample.framework */,
 				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */,
 				41D6D234B903AA484B74AEE709D0A793 /* VirgilCrypto */,
 				91D2CB26B253F0698243F84B19239D89 /* VirgilCryptoFoundation */,
@@ -1368,7 +1368,6 @@
 				F8CFEF563DC9985E94617328B4695F62 /* ViewMemoryStorage.swift */,
 				DC0E004989CE708E85968393127DAFCC /* Support Files */,
 			);
-			name = ZSwiftBaseLib;
 			path = ZSwiftBaseLib;
 			sourceTree = "<group>";
 		};
@@ -1428,7 +1427,6 @@
 				C29BE0258B7073F341AE58DB41BE8EB1 /* UnsafeChannel.swift */,
 				A9A8C1C2106B54E8F8AB6CC315B67B4D /* Support Files */,
 			);
-			name = VirgilE3Kit;
 			path = VirgilE3Kit;
 			sourceTree = "<group>";
 		};
@@ -1450,7 +1448,6 @@
 				8D835B81A07B547F2DD0A1202DD1FA3A /* VirgilCryptoPythia.h */,
 				0B580DDD093B5140F88D68C644602EE5 /* Support Files */,
 			);
-			name = VirgilCryptoPythia;
 			path = VirgilCryptoPythia;
 			sourceTree = "<group>";
 		};
@@ -1583,7 +1580,6 @@
 				0418E14FFECBBB5907815C8F2CCA1019 /* VirgilCryptoFoundation.h */,
 				E7827F74281996BFACE38D18F4358C79 /* Support Files */,
 			);
-			name = VirgilCryptoFoundation;
 			path = VirgilCryptoFoundation;
 			sourceTree = "<group>";
 		};
@@ -1620,7 +1616,6 @@
 				895E867C8B1DF551A99D782E903E5DBD /* PythiaCryptoProtocol.swift */,
 				A6A841142C5A762531D0A40E93E60396 /* Support Files */,
 			);
-			name = VirgilSDKPythia;
 			path = VirgilSDKPythia;
 			sourceTree = "<group>";
 		};
@@ -1688,7 +1683,6 @@
 				0E7ED0CF1A7BBF6C1882667566ED5A9F /* VirgilPublicKey.swift */,
 				611550D8AF5CC64D8193FE48DAAAEC03 /* Support Files */,
 			);
-			name = VirgilCrypto;
 			path = VirgilCrypto;
 			sourceTree = "<group>";
 		};
@@ -1840,7 +1834,6 @@
 				EAC79FE9E50D82172F3FF90B283D6CC8 /* Whitelist.swift */,
 				553C9B9C918AED1899D0B55DA9028312 /* Support Files */,
 			);
-			name = VirgilSDK;
 			path = VirgilSDK;
 			sourceTree = "<group>";
 		};
@@ -1875,7 +1868,6 @@
 				CEB3F59BA4C37165244DE60595278276 /* Frameworks */,
 				BD90F6971BA5818B501984BBAFAB4F74 /* Support Files */,
 			);
-			name = AgoraChat;
 			path = AgoraChat;
 			sourceTree = "<group>";
 		};
@@ -1908,7 +1900,6 @@
 				0D1E2B373DA1F133A697FDEB02321971 /* ValidatePublicKeysResponse.swift */,
 				17509E8CF43DBE83DCCD7EC26636340B /* Support Files */,
 			);
-			name = VirgilSDKRatchet;
 			path = VirgilSDKRatchet;
 			sourceTree = "<group>";
 		};
@@ -1936,7 +1927,6 @@
 				F8423C08B868E5EB3A27518E59B5E260 /* Ratchet */,
 				E1E6FCEBA0D69967A412F6114109214C /* Support Files */,
 			);
-			name = VSCCrypto;
 			path = VSCCrypto;
 			sourceTree = "<group>";
 		};
@@ -2263,7 +2253,7 @@
 			);
 			name = "Pods-AgoraChatEThreeExample";
 			productName = Pods_AgoraChatEThreeExample;
-			productReference = 7EF5F6F596DC0CCBBFD850B336E3C453 /* Pods-AgoraChatEThreeExample */;
+			productReference = 7EF5F6F596DC0CCBBFD850B336E3C453 /* Pods_AgoraChatEThreeExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4BBDED30646DC6C8EDFCEF562E3D2BC /* VirgilCryptoRatchet */ = {
@@ -3330,6 +3320,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AgoraChatEThreeExample/Pods-AgoraChatEThreeExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3835,6 +3826,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_BITCODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3927,6 +3919,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AgoraChatEThreeExample/Pods-AgoraChatEThreeExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3958,6 +3951,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_BITCODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

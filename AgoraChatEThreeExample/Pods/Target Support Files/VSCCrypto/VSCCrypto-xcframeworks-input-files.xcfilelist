@@ -1,5 +1,0 @@
-${PODS_ROOT}/Target Support Files/VSCCrypto/VSCCrypto-xcframeworks.sh
-${PODS_ROOT}/VSCCrypto/VSCCrypto-XCFrameworks/VSCCommon.xcframework
-${PODS_ROOT}/VSCCrypto/VSCCrypto-XCFrameworks/VSCFoundation.xcframework
-${PODS_ROOT}/VSCCrypto/VSCCrypto-XCFrameworks/VSCPythia.xcframework
-${PODS_ROOT}/VSCCrypto/VSCCrypto-XCFrameworks/VSCRatchet.xcframework

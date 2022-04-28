@@ -8,6 +8,7 @@
 import UIKit
 @_exported import AgoraChat
 @_exported import ProgressHUD
+import ZSwiftBaseLib
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
