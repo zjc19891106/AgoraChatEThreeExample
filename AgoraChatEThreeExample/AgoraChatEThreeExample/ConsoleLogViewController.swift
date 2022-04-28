@@ -32,6 +32,7 @@ final class ConsoleLogViewController: UIViewController,UITextFieldDelegate {
         self.view.addSubViews([self.searchField,self.textView])
         self.searchField.rightView = self.right
         self.searchField.rightViewMode = .always
+        self.searchField.returnKeyType = .search
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: NSHomeDirectory() + "/Library/Application Support/HyphenateSDK/easemobLog/easemob.log"))
             self.textView.text = String(data: data, encoding: .utf8)
