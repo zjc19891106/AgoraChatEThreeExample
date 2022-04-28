@@ -19,84 +19,18 @@ An encrypted session means that only users on both sides of the chat can see the
 
 1. We use our own login and registration and then use the token generator of VirgilE3Kit to generate a jwt and then generate the VirgilE3KitSDK object according to the jwt.
 
-`
-    func e3Authenticate(userName: String,callBack:@escaping ((String?,Error?) -> Void)) {
-        do {
-            try self.constructRequest(method: .post, uri: "/authenticate", params: ["identity":userName], headers: ["Content-Type":"application/json"]) { data,response,error in
-                let token = data?.z.toDictionary()?["authToken"] as? String
-                DispatchQueue.main.async {
-                    callBack(token,nil)
-                }
-            }
-        } catch {
-            assert(false, "register error:\(error.localizedDescription)")
-        }
-    }
-
-`
-
-`
-    func virgilToken(token: String,callBack:@escaping ((String?,Error?) -> Void)) {
-        do {
-            try self.constructRequest(method: .post, uri: "/virgil-jwt", params: ["identity":AgoraChatClient.shared().currentUsername ?? ""], headers: ["Content-Type":"application/json","Authorization": "Bearer " + token]) { data,response,error in
-                let token = data?.z.toDictionary()?["virgilToken"] as? String
-                DispatchQueue.main.async {
-                    callBack(token,nil)
-                }
-            }
-        } catch {
-            assert(false, "register error:\(error.localizedDescription)")
-        }
-    }
-`
-
-`
-    try EThree(identity: userName, tokenCallback: tokenCallback)
-`
 
 2. Use this E3 object to register the current user with VirgilE3Kit.
 
-`
-    E3EncryptoManager.shared.e3?.register(completion: { error in
-        ProgressHUD.dismiss()
-        DispatchQueue.main.async {
-            self.handleRegister(userName, error)
-        }
-    })
-`
 
 3. Get the current user's Card object.
 
-`
-    try E3EncryptoManager.shared.card = E3EncryptoManager.shared.e3?.findUser(with: userName.lowercased()).startSync(timeout: 3).get()
-`
 
 4. Use the E3 object to create a VirgilE3Kit.Group object based on the session creator's Card object and the sessionId(This group id is a string sorted by the id of the message sender and the message receiver plus the AgoraChat string).
 
-`
-    cards = try E3EncryptoManager.shared.e3?.findUsers(with: [self.toChatId.lowercased()]).startSync(timeout: 5).get()
-    var groupId = E3EncryptoManager.shared.e3!.identity + self.toChatId + "AgoraChat"
-    groupId = groupId.lowercased()
-    groupId = String(groupId.sorted())
-    group = try E3EncryptoManager.shared.e3?.createGroup(id: groupId, with: cards!).startSync(timeout: 5).get()
-    E3EncryptoManager.shared.e3GroupMap[groupId.lowercased()] = group
-`
 
 5. Use the Group object to encrypt and decrypt the corresponding message.
 
-#### Encrypt
-`
-    guard var text = textField.text else { return false }
-    do {
-        text = try self.group?.encrypt(text: text) ?? ""
-    } catch {
-        ProgressHUD.showError("chat send message error:\(error.localizedDescription)")
-    }
-`
-#### Decrypt
-`
-    content = try self.group?.decrypt(text: body.text, from: (E3EncryptoManager.shared.cards?[message.from])!, date: DateUtils.dateFromMilliTimestamp(message.timestamp)) ?? "decrypt error"
-`
 
 ## Using
 
