@@ -18,6 +18,7 @@ An encrypted session means that only users on both sides of the chat can see the
 ### We use the group encryption function of VirgilE3Kit to ensure that users can see the historical messages in the local database.
 
 1. We use our own login and registration and then use the token generator of VirgilE3Kit to generate a jwt and then generate the VirgilE3KitSDK object according to the jwt.
+
 `
     func e3Authenticate(userName: String,callBack:@escaping ((String?,Error?) -> Void)) {
         do {
@@ -49,6 +50,7 @@ An encrypted session means that only users on both sides of the chat can see the
 `
 
 2. Use this E3 object to register the current user with VirgilE3Kit.
+
 `
     E3EncryptoManager.shared.e3?.register(completion: { error in
         ProgressHUD.dismiss()
@@ -58,10 +60,12 @@ An encrypted session means that only users on both sides of the chat can see the
     })
 `
 3. Get the current user's Card object.
+
 `
     try E3EncryptoManager.shared.card = E3EncryptoManager.shared.e3?.findUser(with: userName.lowercased()).startSync(timeout: 3).get()
 `
 4. Use the E3 object to create a VirgilE3Kit.Group object based on the session creator's Card object and the sessionId(This group id is a string sorted by the id of the message sender and the message receiver plus the AgoraChat string).
+
 `
     cards = try E3EncryptoManager.shared.e3?.findUsers(with: [self.toChatId.lowercased()]).startSync(timeout: 5).get()
     var groupId = E3EncryptoManager.shared.e3!.identity + self.toChatId + "AgoraChat"
