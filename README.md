@@ -32,7 +32,10 @@ An encrypted session means that only users on both sides of the chat can see the
             assert(false, "register error:\(error.localizedDescription)")
         }
     }
-    
+
+`
+
+`
     func virgilToken(token: String,callBack:@escaping ((String?,Error?) -> Void)) {
         do {
             try self.constructRequest(method: .post, uri: "/virgil-jwt", params: ["identity":AgoraChatClient.shared().currentUsername ?? ""], headers: ["Content-Type":"application/json","Authorization": "Bearer " + token]) { data,response,error in
@@ -45,7 +48,9 @@ An encrypted session means that only users on both sides of the chat can see the
             assert(false, "register error:\(error.localizedDescription)")
         }
     }
-    
+`
+
+`
     try EThree(identity: userName, tokenCallback: tokenCallback)
 `
 
@@ -59,11 +64,13 @@ An encrypted session means that only users on both sides of the chat can see the
         }
     })
 `
+
 3. Get the current user's Card object.
 
 `
     try E3EncryptoManager.shared.card = E3EncryptoManager.shared.e3?.findUser(with: userName.lowercased()).startSync(timeout: 3).get()
 `
+
 4. Use the E3 object to create a VirgilE3Kit.Group object based on the session creator's Card object and the sessionId(This group id is a string sorted by the id of the message sender and the message receiver plus the AgoraChat string).
 
 `
@@ -74,6 +81,7 @@ An encrypted session means that only users on both sides of the chat can see the
     group = try E3EncryptoManager.shared.e3?.createGroup(id: groupId, with: cards!).startSync(timeout: 5).get()
     E3EncryptoManager.shared.e3GroupMap[groupId.lowercased()] = group
 `
+
 5. Use the Group object to encrypt and decrypt the corresponding message.
 
 #### Encrypt
