@@ -75,7 +75,9 @@ extension AgoraChatConversationsViewController {
         let alert = UIAlertController(title: "Send to", message: nil, preferredStyle: .alert).addAlertTextField {
             $0.placeholder = "you want to chat userId!"
             $0.delegate = self
-        }.addAlertAction(UIAlertAction(title: "Confirm", style: .cancel, handler: { [weak self] _ in
+        }.addAlertAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { _ in
+            
+        })).addAlertAction(UIAlertAction(title: "Confirm", style: .default, handler: { [weak self] _ in
             self?.createChat()
         }))
         self.navigationController?.present(alert, animated: true, completion: nil)
@@ -83,6 +85,9 @@ extension AgoraChatConversationsViewController {
     
     private func createChat() {
         //AgoraChatConversationType is group,create group use group's owner and id
+        if self.toChatId.isEmpty {
+            return
+        }
         let item: AgoraChatConversation = AgoraChatClient.shared().chatManager.getConversation(self.toChatId, type: AgoraChatConversationType.init(rawValue: 0), createIfNotExist: true)
         var cards: FindUsersResult?
         var group: Group?

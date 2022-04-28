@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AgoraChat-Swift.h</key>
 		<data>
-		KTi0QSgwlKZn/aoFMw3mSTrSbLw=
+		y0f46LdQ/xP8gYzlp3/u6zosUDQ=
 		</data>
 		<key>Headers/AgoraChat.h</key>
 		<data>
@@ -218,87 +218,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uxgt4REFgzrafWyu4LJkG3rK3PA=
+		uTcOugLSAz+dgNgSBPDuuVW/VA8=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		i3kITccTNh+TAWh8VGKx5J0dbCE=
+		rg1syiMbRWOwWEhtyVaFwx4j+as=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		pwW1egNwD8S7gi6VBttKx26HEQg=
+		rg1syiMbRWOwWEhtyVaFwx4j+as=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pwW1egNwD8S7gi6VBttKx26HEQg=
+		QOzhSzkRZEDLX452f2+0019qJdI=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		i3kITccTNh+TAWh8VGKx5J0dbCE=
+		m09zPZLB9Ve0Y0q8moHG+7L+2qE=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i3kITccTNh+TAWh8VGKx5J0dbCE=
+		sfu3qGqhjwWDzPzw9w7bx6UrFwU=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		usW2JO/S1PCRdEH59LBD4HxmCRE=
+		QOzhSzkRZEDLX452f2+0019qJdI=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm.swiftinterface</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		LkCmANAJiwAZDstoo0LQgYWG9Fw=
+		m09zPZLB9Ve0Y0q8moHG+7L+2qE=
 		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		VDmv+8vzh5YHk+R7U31M5gV7gmk=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		GXPPzVh3an0SAZ6vcQ7B32CbSOo=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		yweLcj4gnDCVy6Bj28y1qgkBAtc=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		w0Vpq3AS0Gyw3TTEb6Ho+6SpJHA=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		GXPPzVh3an0SAZ6vcQ7B32CbSOo=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		yweLcj4gnDCVy6Bj28y1qgkBAtc=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		w0Vpq3AS0Gyw3TTEb6Ho+6SpJHA=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<data>
-		usW2JO/S1PCRdEH59LBD4HxmCRE=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<data>
-		LkCmANAJiwAZDstoo0LQgYWG9Fw=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<data>
-		VDmv+8vzh5YHk+R7U31M5gV7gmk=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/armv7.swiftdoc</key>
-		<data>
-		usW2JO/S1PCRdEH59LBD4HxmCRE=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/armv7.swiftinterface</key>
-		<data>
-		LkCmANAJiwAZDstoo0LQgYWG9Fw=
-		</data>
-		<key>Modules/AgoraChat.swiftmodule/armv7.swiftmodule</key>
-		<data>
-		VDmv+8vzh5YHk+R7U31M5gV7gmk=
+		sfu3qGqhjwWDzPzw9w7bx6UrFwU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -311,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KTi0QSgwlKZn/aoFMw3mSTrSbLw=
+			y0f46LdQ/xP8gYzlp3/u6zosUDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ntChOsngb+IdwUB/PmiadMJUEJplhHleVdUfjlzuMhI=
+			7B5hq4AQiz9Hrql/qBpXypzEyo2FaaN0eVnlpL7d2bg=
 			</data>
 		</dict>
 		<key>Headers/AgoraChat.h</key>
@@ -890,224 +842,92 @@
 			9rOOHOjbeAZNpa0O9LJC5ArbqJM3qtdlFZAFtBIVOpg=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/Project/arm.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i3kITccTNh+TAWh8VGKx5J0dbCE=
+			rg1syiMbRWOwWEhtyVaFwx4j+as=
 			</data>
 			<key>hash2</key>
 			<data>
-			w41Cy3U22OFrpL0el/EHY/1UaSWc/Slac/FHoK5KB/s=
+			Umavom/lMe71I1tuCLSfUV/Vgic/e+1pPhHmFdd43GI=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pwW1egNwD8S7gi6VBttKx26HEQg=
+			rg1syiMbRWOwWEhtyVaFwx4j+as=
 			</data>
 			<key>hash2</key>
 			<data>
-			CtyFP5QTSPj4+LzTqDLKCvSix5LRLxkYYZMwLjWivU0=
+			Umavom/lMe71I1tuCLSfUV/Vgic/e+1pPhHmFdd43GI=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pwW1egNwD8S7gi6VBttKx26HEQg=
+			QOzhSzkRZEDLX452f2+0019qJdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			CtyFP5QTSPj4+LzTqDLKCvSix5LRLxkYYZMwLjWivU0=
+			ZJvx4/Wog1LsRybGY/iK5WA3fkGYu8144FW5Afse+94=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i3kITccTNh+TAWh8VGKx5J0dbCE=
+			m09zPZLB9Ve0Y0q8moHG+7L+2qE=
 			</data>
 			<key>hash2</key>
 			<data>
-			w41Cy3U22OFrpL0el/EHY/1UaSWc/Slac/FHoK5KB/s=
+			G8/346UQio2RR6luLrKvMSaBb+6f1N/FV06Xz2LJ7vc=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/Project/armv7.swiftsourceinfo</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i3kITccTNh+TAWh8VGKx5J0dbCE=
+			sfu3qGqhjwWDzPzw9w7bx6UrFwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			w41Cy3U22OFrpL0el/EHY/1UaSWc/Slac/FHoK5KB/s=
+			K5qHSoS7rCIOqdal3Hv12/vqMNcqZwwJi9xa6n7K6m4=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			usW2JO/S1PCRdEH59LBD4HxmCRE=
+			QOzhSzkRZEDLX452f2+0019qJdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LId1M1UJLZ3rgOtOvE+jgmzHs1qB/ELR1w4nPXkAHfM=
+			ZJvx4/Wog1LsRybGY/iK5WA3fkGYu8144FW5Afse+94=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm.swiftinterface</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LkCmANAJiwAZDstoo0LQgYWG9Fw=
+			m09zPZLB9Ve0Y0q8moHG+7L+2qE=
 			</data>
 			<key>hash2</key>
 			<data>
-			eruAt47KwSK7EcwVp2Kyeehx4CCw6jAXym/2C2t/dmU=
+			G8/346UQio2RR6luLrKvMSaBb+6f1N/FV06Xz2LJ7vc=
 			</data>
 		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/AgoraChat.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VDmv+8vzh5YHk+R7U31M5gV7gmk=
+			sfu3qGqhjwWDzPzw9w7bx6UrFwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ovMYnxkup5fSvrOqDr6m4DlMv235rFt6zafChXURwOs=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GXPPzVh3an0SAZ6vcQ7B32CbSOo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z3E3RrUKe/OR+qWp1jpXcaijZmjNavJQur65VqJFyyI=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yweLcj4gnDCVy6Bj28y1qgkBAtc=
-			</data>
-			<key>hash2</key>
-			<data>
-			Jv/uMCc3L0WCzKV/TSFnU0I/MNSov+aEYnY+d40wr1o=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w0Vpq3AS0Gyw3TTEb6Ho+6SpJHA=
-			</data>
-			<key>hash2</key>
-			<data>
-			8FUNHfh7a/KygFBiCdfa6xOS/mfCCxKEuM8+TodfRG4=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GXPPzVh3an0SAZ6vcQ7B32CbSOo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Z3E3RrUKe/OR+qWp1jpXcaijZmjNavJQur65VqJFyyI=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yweLcj4gnDCVy6Bj28y1qgkBAtc=
-			</data>
-			<key>hash2</key>
-			<data>
-			Jv/uMCc3L0WCzKV/TSFnU0I/MNSov+aEYnY+d40wr1o=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w0Vpq3AS0Gyw3TTEb6Ho+6SpJHA=
-			</data>
-			<key>hash2</key>
-			<data>
-			8FUNHfh7a/KygFBiCdfa6xOS/mfCCxKEuM8+TodfRG4=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/armv7-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			usW2JO/S1PCRdEH59LBD4HxmCRE=
-			</data>
-			<key>hash2</key>
-			<data>
-			LId1M1UJLZ3rgOtOvE+jgmzHs1qB/ELR1w4nPXkAHfM=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/armv7-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LkCmANAJiwAZDstoo0LQgYWG9Fw=
-			</data>
-			<key>hash2</key>
-			<data>
-			eruAt47KwSK7EcwVp2Kyeehx4CCw6jAXym/2C2t/dmU=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/armv7-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VDmv+8vzh5YHk+R7U31M5gV7gmk=
-			</data>
-			<key>hash2</key>
-			<data>
-			ovMYnxkup5fSvrOqDr6m4DlMv235rFt6zafChXURwOs=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/armv7.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			usW2JO/S1PCRdEH59LBD4HxmCRE=
-			</data>
-			<key>hash2</key>
-			<data>
-			LId1M1UJLZ3rgOtOvE+jgmzHs1qB/ELR1w4nPXkAHfM=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/armv7.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LkCmANAJiwAZDstoo0LQgYWG9Fw=
-			</data>
-			<key>hash2</key>
-			<data>
-			eruAt47KwSK7EcwVp2Kyeehx4CCw6jAXym/2C2t/dmU=
-			</data>
-		</dict>
-		<key>Modules/AgoraChat.swiftmodule/armv7.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VDmv+8vzh5YHk+R7U31M5gV7gmk=
-			</data>
-			<key>hash2</key>
-			<data>
-			ovMYnxkup5fSvrOqDr6m4DlMv235rFt6zafChXURwOs=
+			K5qHSoS7rCIOqdal3Hv12/vqMNcqZwwJi9xa6n7K6m4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

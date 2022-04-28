@@ -25,7 +25,7 @@ final class ViewController: UIViewController,UITableViewDelegate,UITableViewData
         self.view.backgroundColor = .white
         self.refreshHeader()
         NotificationCenter.default.addObserver(forName: Notification.Name(rawValue: "loginSuccess"), object: nil, queue: .main) { _ in
-            self.data.removeFirst()
+            self.data.removeAll { $0 == "Register than login" }
             self.functionList.reloadData()
         }
     }
@@ -53,8 +53,9 @@ extension ViewController {
         if cell == nil {
             cell = UITableViewCell(style: .default, reuseIdentifier: "666")
         }
-        cell?.textLabel?.text = self.data[safe: indexPath.row]
-        cell?.accessoryType = (indexPath.row == 1 ? .none:.disclosureIndicator)
+        let text = self.data[safe: indexPath.row]
+        cell?.textLabel?.text = text
+        cell?.accessoryType = (text == "LogOut" ? .none:.disclosureIndicator)
         return cell!
     }
     

@@ -91,7 +91,7 @@ extension ConsoleLogViewController {
                 location += _range.location + _range.length
             }
             
-            _fullText = NSString.init(string: _fullText.substring(from: rang.location + rang.length))
+            _fullText = NSString(string: _fullText.substring(from: rang.location + rang.length))
             
             if arrRange.count > 0 {
                 rang.location += location
@@ -103,7 +103,5 @@ extension ConsoleLogViewController {
         
         return arrRange
     }
-
-
     
 }
