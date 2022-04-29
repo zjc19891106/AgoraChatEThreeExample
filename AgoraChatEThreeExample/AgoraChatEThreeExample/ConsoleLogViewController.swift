@@ -53,9 +53,8 @@ extension ConsoleLogViewController {
         }
         let range = NSMakeRange(0, 0)
         self.textView.scrollRangeToVisible(self.ranges.first ?? range)
-        self.textView.selectedRange = self.ranges[safe: self.index] ?? range
-        self.searchField.resignFirstResponder()
-        return  true
+        self.view.endEditing(true)
+        return true
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -63,6 +62,7 @@ extension ConsoleLogViewController {
     }
     
     @objc private func goNext() {
+        self.view.endEditing(true)
         self.index += 1
         if self.ranges.count <= 0 {
             return
@@ -72,15 +72,12 @@ extension ConsoleLogViewController {
         }
         let range = NSMakeRange(0, 0)
         self.textView.scrollRangeToVisible(self.ranges[safe: self.index] ?? range)
-        self.textView.selectedRange = self.ranges[safe: self.index] ?? range
     }
     
     /// 获取字符出现的位置信息(支持多次位置获取)
     /// - Parameter string: 原始文本
     /// - Parameter inString: 需要查找的字符
-    private func rangeOfString(string:NSString,
-                               andInString inString:String) -> [NSRange] {
-        
+    private func rangeOfString(string:NSString, andInString inString:String) -> [NSRange] {
         var arrRange = [NSRange]()
         var _fullText = string
         var rang:NSRange = _fullText.range(of: inString, options: .regularExpression)
