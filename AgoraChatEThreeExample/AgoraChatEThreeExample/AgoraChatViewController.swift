@@ -24,7 +24,7 @@ final class AgoraChatViewController: UIViewController,UITableViewDelegate,UITabl
         UITableView(frame: CGRect(x: 0, y: ZNavgationHeight, width: ScreenWidth, height: ScreenHeight-ZNavgationHeight-40-CGFloat(ZBottombarHeight)), style: .plain).delegate(self).dataSource(self).tableFooterView(UIView()).separatorStyle(.none)
     }()
     
-    lazy var messageField: UITextField = {
+    private lazy var messageField: UITextField = {
         UITextField(frame: CGRect(x: 2, y: Int(ScreenHeight) - 40 - ZBottombarHeight, width: Int(ScreenWidth) - 4, height: 40)).delegate(self).layerProperties(.systemBlue, 2).placeholder("Send Text Message").cornerRadius(5).leftView(UIView(frame: CGRect(x: 0, y: 0, width: 10, height: 40)), .always)
     }()
     
@@ -152,6 +152,12 @@ extension AgoraChatViewController {
         } catch {
             ProgressHUD.showError("chat send message error:\(error.localizedDescription)")
         }
+        self.sendTextMessage(text)
+        textField.text = ""
+        return true
+    }
+    
+    private func sendTextMessage(_ text: String) {
         let message = AgoraChatMessage(conversationID: self.title, from: AgoraChatClient.shared().currentUsername, to: self.title, body: AgoraChatTextMessageBody(text: text), ext: [:])
         AgoraChatClient.shared().chatManager.send(message, progress: nil) { sendMessage, error in
             if let msg = sendMessage,error == nil {
@@ -159,8 +165,6 @@ extension AgoraChatViewController {
                 self.messagesList.reloadData()
             }
         }
-        textField.text = ""
-        return true
     }
     
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {

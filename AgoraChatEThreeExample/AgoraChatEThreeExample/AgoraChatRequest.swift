@@ -119,7 +119,7 @@ extension AgoraChatRequest {
                 }
             }
         } catch {
-            assert(false, "register error:\(error.localizedDescription)")
+            assert(false, "login error:\(error.localizedDescription)")
         }
     }
     
