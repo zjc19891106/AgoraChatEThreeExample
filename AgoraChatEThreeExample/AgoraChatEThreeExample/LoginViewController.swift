@@ -15,7 +15,7 @@ final class LoginViewController: UIViewController,UITextFieldDelegate {
     @UserDefault("AgoraChatPassword", defaultValue: "") var passWord
     
     private lazy var logo: UIImageView = {
-        UIImageView(frame: CGRect(x: ScreenWidth/3.0, y: ZNavgationHeight+20, width: ScreenWidth/3.0, height: ScreenWidth/3.0)).image(UIImage(named: "login_logo")!)
+        UIImageView(frame: CGRect(x: ScreenWidth/3.0, y: ZNavgationHeight+20, width: ScreenWidth/3.0, height: ScreenWidth/3.0)).image(UIImage(named: "login_logo")!).contentMode(.scaleAspectFit)
     }()
     
     private lazy var userNameField: UITextField = {
